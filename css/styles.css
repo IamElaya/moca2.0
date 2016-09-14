@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "Gidole-reg";
+  src: url("assets/Gidole-Regular.ttf");
+}
+
+html, body {
+  margin: 0;
+  height: 100vw;
+}
+
+a {
+  font-family: "Gidole-reg";
+  font-size: 15px;
+}
+
+h1 {
+  font-family: "Gidole-reg";
+}
+
+h2 {
+  font-family: "Gidole-reg";
+}
+
+h3 {
+  font-family: "Gidole-reg";
+}
+
+p {
+  font-family: "Gidole-reg";
+}
+
+
+.navbar.navbar-default.navbar-fixed-top {
+/*  background:rgba(255,255,255,0.5);*/
+  margin: 0 auto;
+}
+
+.navoptions {
+  padding-top: 1.5%;
+}
+
+#video {
+  height: 50vw;
+  width: 100vw;
+  text-align: center;
+  background-image: url(assets/img1.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.btn .btn-warning {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.thumbnail ul {
+  list-style: none;
+}
+
+.thumbnail ul li {
+  font-size: 30px;
+  font-size: 2vw;
+}
+
+.thumbnail h1 {
+  text-align: center;
+}
+
+.imagethumbnail h1 {
+  text-align: center;
+}
+
+.imagethumbnail img {
+  display: block;
+  margin: 0 auto;
+}
+
+#infotitle h1 {
+  text-align: center;
+}
+
+#steps {
+  height: 150vw;
+  width: 100vw;
+  background-color: rgba(239, 95, 43, 0.1);
+}
+
+#phototitle h1 {
+  text-align: center;
+}
+
+#samplephoto {
+  text-align: center;
+}
+
+.upload {
+  background-color: gray;
+}
+
+#footer {
+  width: 100vw;
+  background-color: rgba(128,128,128,1);
+  clear: both;
+}
+.footertext {
+  text-align: center;
+}
