@@ -5,7 +5,7 @@
 
 html, body {
   margin: 0;
-  height: 100vw;
+  height: 100%;
 }
 
 a {
@@ -30,9 +30,16 @@ p {
 }
 
 
-.navbar.navbar-default.navbar-fixed-top {
+nav {
 /*  background:rgba(255,255,255,0.5);*/
   margin: 0 auto;
+  height: 10%;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -10%;
 }
 
 .navoptions {
@@ -40,8 +47,9 @@ p {
 }
 
 #video {
-  height: 50vw;
-  width: 100vw;
+  margin-top: 5%;
+  height: 33vw;
+  width: 100%;
   text-align: center;
   background-image: url(assets/img1.png);
   background-position: 50% 50%;
@@ -52,7 +60,7 @@ p {
   -o-background-size: cover;
   background-size: cover;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 24px;
+  font-size: 2%;
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -75,7 +83,7 @@ p {
 
 .thumbnail ul li {
   font-size: 30px;
-  font-size: 2vw;
+  font-size: 2%;
 }
 
 .thumbnail h1 {
@@ -96,9 +104,18 @@ p {
 }
 
 #steps {
-  height: 150vw;
-  width: 100vw;
+  height: 150%;
+  width: 100%;
   background-color: rgba(239, 95, 43, 0.1);
+}
+
+#step {
+  color: rgb(239, 95, 43);
+  border-right: 2px solid rgb(239, 95, 43);
+  font-family: impact;
+  height: 100px;
+  line-height: 100px;
+  white-space: nowrap;
 }
 
 #phototitle h1 {
@@ -114,10 +131,12 @@ p {
 }
 
 #footer {
-  width: 100vw;
+  width: 100%;
   background-color: rgba(128,128,128,1);
   clear: both;
+  overflow: hidden;
 }
 .footertext {
+  height: 10%;
   text-align: center;
 }
