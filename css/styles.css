@@ -51,8 +51,8 @@ nav {
   margin-top: 5%;
   height: 100%;
   width: 100%;
-  padding-top: 25%;
-  padding-bottom: 25%;
+  padding-top: 20%;
+  padding-bottom: 20%;
   text-align: center;
   background-image: url(assets/img1.png);
   background-size: cover;
@@ -68,6 +68,10 @@ nav {
   padding: 0;
   border: none;
   background: none;
+}
+
+#bs-example-navbar-collapse-1 {
+  background-color: #f8f8f8;
 }
 
 #locations p {
@@ -132,7 +136,9 @@ nav {
   background-color: rgba(239, 95, 43, 0.1);
 }
 
-
+#steps h3 {
+  font-family: impact;
+}
 
 #steps2 {
   height: 150%;
@@ -154,7 +160,6 @@ nav {
 
 #step {
   color: rgb(239, 95, 43);
-  border-right: 2px solid rgb(239, 95, 43);
   font-family: impact;
   height: 100px;
   line-height: 100px;
@@ -176,7 +181,7 @@ nav {
 
 #footer {
   width: 100%;
-  background-color: rgba(128,128,128,1);
+  background-color: #000000;
   clear: both;
   overflow: hidden;
 }
