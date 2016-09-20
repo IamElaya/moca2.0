@@ -49,42 +49,44 @@
       </div>
       <div id="infobox" class="row">
         <div class="col-xs-6 col-md-3 imagethumbnail">
-          <h3 class="step">Step 1</h3><br>
+          <h3 class="infosteps">Step 1</h3><br>
           <img src="css/assets/cam.png"/></br>
           <h3>Photos</h3>
         </div>
         <div class="col-xs-6 col-md-3 imagethumbnail">
-          <h3 class="step">Step 2</h3><br>
+          <h3 class="infosteps">Step 2</h3><br>
           <img src="css/assets/mail.png"/><br>
           <h3>Send Us</h3>
         </div>
         <div class="col-xs-6 col-md-3 imagethumbnail">
-          <h3 class="step">Step 3</h3><br>
+          <h3 class="infosteps">Step 3</h3><br>
           <img src="css/assets/quotes.png"/><br>
           <h3>Receive Quotes</h3>
         </div>
         <div class="col-xs-6 col-md-3 imagethumbnail">
-          <h3 class="step">Step 4</h3><br>
+          <h3 class="infosteps">Step 4</h3><br>
           <img src="css/assets/car.png"/><br>
           <h3>Select and Fix Your Car</h3>
         </div>
       </div>
     </div>
     <div id="steps" class="container">
-      <div class="row">
+      <div id="title" class="row">
+        <div class="col-xs-5 col-md-1">
+          <img class="step" src="css/assets/cam.png"/>
+        </div>
+        <div class="col-xs-5 col-md-1">
+          <h3 id="step" class="step">STEP 1</h3>
+        </div>
         <div class="col-md-6">
-          <div id=class="row">
-            <img class="col-md-3" src="css/assets/cam.png"/>
-            <h3 id="step" class="col-md-3">STEP 1</h3>
-          </div>
-          <h3><font style="font-weight: bold;">Take 3 Photos</font><br><font style="color:rgb(128, 128, 128);">Front Angle, Left Angle, & Right Angle</h3>
+          <h3><font style="font-weight: bold;">Take 3 Photos</font><br><font style="color:rgb(128, 128, 128);">Front Angle, Left Angle, & Right Angle</font></h3>
         </div>
       </div>
       <div id="phototitle">
         <h1>SAMPLE PHOTOS</h1>
       </div>
       <div id="samplephoto" class="row">
-        <div class="col-md-4">
+        <div class="col-xs-8 col-md-4">
           <div class="thumbnail">
             <div class="caption">
               <h3>Front</h3>
@@ -92,7 +94,7 @@
             <img src="css/assets/sam1_fnt.jpg">
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-xs-8 col-md-4">
           <div class="thumbnail">
             <div class="caption">
               <h3>Left</h3>
@@ -100,7 +102,7 @@
             <img src="css/assets/sam2_lft.jpg">
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-xs-8 col-md-4">
           <div class="thumbnail">
             <div class="caption">
               <h3>Right</h3>
@@ -109,71 +111,73 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div id=class="row">
-            <img class="col-md-3" src="css/assets/mail.png"/>
-            <h3 id="step" class="col-md-3">STEP 2</h3>
-            <p class="col-md-3">Upload Photos<br>Type Few Contact Info</p>
-          </div>
+      <div id="title2" class="row">
+        <div class="col-xs-5 col-md-1">
+          <img class="step" src="css/assets/mail.png"/>
+        </div>
+        <div class="col-xs-5 col-md-1">
+          <h3 id="step" class="step">STEP 2</h3>
+        </div>
+        <div class="col-md-6">
+          <h3>Upload Photos<br><font style="color:rgb(128, 128, 128);">Type Few Contact Info</font></h3>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-6">
+      <div id="forminfo" class="row">
+        <div class="col-md-7">
           <div class="row">
-            <h3>OR Email the photos to info@mocaestimator.com</h3><br>
-            <p>Tell us your : Name, Car Make, Model/Year, E-mail, Address, Phone#</p>
+            <h4>OR Email the photos to info@mocaestimator.com</h4>
+            <h4>Tell us your : Name, Car Make, Model/Year, E-mail, Address, Phone#</h4>
           </div>
         </div>
         <div class="col-md-6">
         </div>
       </div>
-      <form class="form-horizontal">
+      <form id="form" class="form-horizontal">
         <div class="form-group">
-          <label for="inputName" class="col-sm-2 control-label">Name</label>
-          <div class="col-sm-10">
+          <label for="inputName" class="col-sm-2 control-label">NAME:</label>
+          <div class="col-sm-8">
             <input type="text" class="form-control" id="inputName" placeholder="Name">
           </div>
         </div>
         <div class="form-group">
-          <label for="inputCarMake" class="col-sm-2 control-label">Car Make</label>
-          <div class="col-sm-10">
+          <label for="inputCarMake" class="col-sm-2 control-label">CAR MAKE:</label>
+          <div class="col-sm-8">
            <input type="text" class="form-control" id="inputCarMake" placeholder="Car Make">
           </div>
         </div>
         <div class="form-group">
-          <label for="inputCarModel" class="col-sm-2 control-label">Car Model</label>
-          <div class="col-sm-10">
+          <label for="inputCarModel" class="col-sm-2 control-label">CAR MODEL:</label>
+          <div class="col-sm-8">
            <input type="text" class="form-control" id="inputCarModel" placeholder="Car Model">
           </div>
         </div>
         <div class="form-group">
-          <label for="inputCarYear" class="col-sm-2 control-label">Car Year</label>
-          <div class="col-sm-10">
+          <label for="inputCarYear" class="col-sm-2 control-label">CAR YEAR:</label>
+          <div class="col-sm-8">
            <input type="number" class="form-control" id="inputCarYear" placeholder="Car Year">
           </div>
         </div>
         <div class="form-group">
-          <label for="inputEmail" class="col-sm-2 control-label">Email</label>
-          <div class="col-sm-10">
+          <label for="inputEmail" class="col-sm-2 control-label">EMAIL:</label>
+          <div class="col-sm-8">
            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
           </div>
         </div>
         <div class="form-group">
-          <label for="inputAddress" class="col-sm-2 control-label">Address</label>
-          <div class="col-sm-10">
+          <label for="inputAddress" class="col-sm-2 control-label">ADDRESS:</label>
+          <div class="col-sm-8">
            <input type="text" class="form-control" id="inputAddress" placeholder="Address">
           </div>
         </div>
         <div class="form-group">
-          <label for="inputPhoneNumber" class="col-sm-2 control-label">Phone Number</label>
-          <div class="col-sm-10">
+          <label for="inputPhoneNumber" class="col-sm-2 control-label">PHONE NUMBER:</label>
+          <div class="col-sm-8">
            <input type="number" class="form-control" id="inputPhoneNumber" placeholder="Phone Number">
           </div>
         </div>
         <div class="form-group">
-          <label for="inputPhoneNumber" class="col-sm-2 control-label">Memo</label>
-          <div class="col-sm-10">
+          <label for="inputPhoneNumber" class="col-sm-2 control-label">MEMO:</label>
+          <div class="col-sm-8">
            <input type="text" class="form-control" id="inputPhoneNumber" placeholder="Additional Info">
           </div>
         </div>

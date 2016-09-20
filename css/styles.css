@@ -78,12 +78,39 @@ nav {
   font-weight: bold;
 }
 
+#title {
+  margin-left: 10%;
+}
+
+#title2 {
+  margin-left: 10%;
+}
+
+
+#samplephoto .col-md-4 {
+  width: 33%;
+  max-height:20vw;
+}
+
+#samplephoto .thumbnail {
+  max-width: 250px;
+  max-height: 250px;
+  padding: 0;
+  margin-bottom: 20%;
+  overflow: hidden;
+}
 
 .thumbnail {
-  width: 100%;
-  padding: 0;
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+#forminfo {
+  margin-left: 15%;
+  font-family: "Gidole-reg";
+  margin-bottom: 3%;
+}
+
 
 .thumbnail ul {
   list-style: none;
@@ -94,9 +121,11 @@ nav {
   font-size: 2%;
 }
 
-.thumbnail img {
+#samplephoto img {
   padding: 0;
-  width: 100%;
+  height: auto;
+  max-width: 33vw;
+  max-height: 33vw;
   margin: 0;
 }
 
@@ -130,10 +159,18 @@ nav {
   text-align: center;
 }
 
+.infosteps {
+  color: rgb(239, 95, 43);
+  font-family: impact;
+  text-align: center;
+
+}
+
 #steps {
   height: 150%;
   width: 100%;
   background-color: rgba(239, 95, 43, 0.1);
+  padding-top: 5%;
 }
 
 #steps h3 {
@@ -153,30 +190,42 @@ nav {
 .step {
   color: rgb(239, 95, 43);
   font-family: impact;
-  height: 100px;
-  line-height: 100px;
-  white-space: nowrap;
+  display: inline-block;
+  text-align: center;
 }
 
 #step {
-  color: rgb(239, 95, 43);
-  font-family: impact;
-  height: 100px;
-  line-height: 100px;
-  white-space: nowrap;
+  padding-left: 15%;
+  margin-bottom: 50px;
 }
 
 #phototitle h1 {
   font-family: impact;
   text-align: center;
+  color:rgb(128, 128, 128);
 }
 
 #samplephoto {
   text-align: center;
+  margin-bottom: 10%;
 }
 
 .upload {
   background-color: gray;
+}
+
+#form {
+  color: #EF5F2B;
+  font-family: impact;
+  font-size: 150%;
+}
+
+.form-group {
+  padding-left: 13%;
+}
+
+label text {;
+  border: 1px solid #EF5F2B;
 }
 
 #footer {
@@ -184,6 +233,7 @@ nav {
   background-color: #000000;
   clear: both;
   overflow: hidden;
+  color: white;
 }
 .footertext {
   height: 10%;
