@@ -27,6 +27,7 @@ h3 {
 
 p {
   font-family: "Gidole-reg";
+  text-align: center;
 }
 
 
@@ -48,26 +49,18 @@ nav {
 
 #video {
   margin-top: 5%;
-  height: 33vw;
+  height: 100%;
   width: 100%;
+  padding-top: 25%;
+  padding-bottom: 25%;
   text-align: center;
   background-image: url(assets/img1.png);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   color: rgba(255, 255, 255, 0.8);
   font-size: 2%;
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   overflow: hidden;
 }
 
@@ -75,6 +68,17 @@ nav {
   padding: 0;
   border: none;
   background: none;
+}
+
+#locations p {
+  font-weight: bold;
+}
+
+
+.thumbnail {
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .thumbnail ul {
@@ -86,17 +90,36 @@ nav {
   font-size: 2%;
 }
 
+.thumbnail img {
+  padding: 0;
+  width: 100%;
+  margin: 0;
+}
+
 .thumbnail h1 {
   text-align: center;
 }
 
-.imagethumbnail h1 {
-  text-align: center;
+.caption {
+  background-color: black;
+}
+
+.caption h3 {
+  color: white;
+}
+.imagethumbnail {
+  margin-bottom: 5%;
 }
 
 .imagethumbnail img {
   display: block;
   margin: 0 auto;
+}
+
+#infobox h3 {
+  text-align: center;
+  font-weight: bold;
+  font-family: impact;
 }
 
 #infotitle h1 {
@@ -109,6 +132,26 @@ nav {
   background-color: rgba(239, 95, 43, 0.1);
 }
 
+
+
+#steps2 {
+  height: 150%;
+  width: 100%;
+  background-color: rgba(239, 95, 43, 0.1);
+}
+
+#steps2 img {
+  padding-top: 10%;
+}
+
+.step {
+  color: rgb(239, 95, 43);
+  font-family: impact;
+  height: 100px;
+  line-height: 100px;
+  white-space: nowrap;
+}
+
 #step {
   color: rgb(239, 95, 43);
   border-right: 2px solid rgb(239, 95, 43);
@@ -119,6 +162,7 @@ nav {
 }
 
 #phototitle h1 {
+  font-family: impact;
   text-align: center;
 }
 
