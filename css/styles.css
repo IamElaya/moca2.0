@@ -78,25 +78,8 @@ nav {
   font-weight: bold;
 }
 
-#title {
-  margin-left: 10%;
-}
-
-#title2 {
-  margin-left: 10%;
-}
-
-
 #samplephoto .col-md-4 {
-  width: 33%;
-  max-height:20vw;
-}
-
-#samplephoto .thumbnail {
-  max-width: 250px;
-  max-height: 250px;
   padding: 0;
-  margin-bottom: 20%;
   overflow: hidden;
 }
 
@@ -106,7 +89,6 @@ nav {
 }
 
 #forminfo {
-  margin-left: 15%;
   font-family: "Gidole-reg";
   margin-bottom: 3%;
 }
@@ -119,14 +101,6 @@ nav {
 .thumbnail ul li {
   font-size: 30px;
   font-size: 2%;
-}
-
-#samplephoto img {
-  padding: 0;
-  height: auto;
-  max-width: 33vw;
-  max-height: 33vw;
-  margin: 0;
 }
 
 .thumbnail h1 {
@@ -163,7 +137,6 @@ nav {
   color: rgb(239, 95, 43);
   font-family: impact;
   text-align: center;
-
 }
 
 #steps {
@@ -192,12 +165,9 @@ nav {
   font-family: impact;
   display: inline-block;
   text-align: center;
+  margin: 0;
 }
 
-#step {
-  padding-left: 15%;
-  margin-bottom: 50px;
-}
 
 #phototitle h1 {
   font-family: impact;
@@ -218,15 +188,13 @@ nav {
   color: #EF5F2B;
   font-family: impact;
   font-size: 150%;
-}
-
-.form-group {
-  padding-left: 13%;
+  overflow: hidden;
 }
 
 label text {;
   border: 1px solid #EF5F2B;
 }
+
 
 #footer {
   width: 100%;
