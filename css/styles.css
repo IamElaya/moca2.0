@@ -34,7 +34,7 @@ p {
 nav {
 /*  background:rgba(255,255,255,0.5);*/
   margin: 0 auto;
-  height: 10%;
+  height: 12%;
 }
 
 .wrapper {
@@ -44,7 +44,7 @@ nav {
 }
 
 .navoptions {
-  padding-top: 1.5%;
+  padding-top: 3%;
 }
 
 #video {
@@ -93,6 +93,9 @@ nav {
   margin-bottom: 3%;
 }
 
+#title {
+  margin-bottom: 5%;
+}
 
 .thumbnail ul {
   list-style: none;
@@ -107,12 +110,8 @@ nav {
   text-align: center;
 }
 
-.caption {
-  background-color: black;
-}
-
 .caption h3 {
-  color: white;
+  color: #EF5F2B;
 }
 .imagethumbnail {
   margin-bottom: 5%;
@@ -168,7 +167,6 @@ nav {
   margin: 0;
 }
 
-
 #phototitle h1 {
   font-family: impact;
   text-align: center;
@@ -178,6 +176,14 @@ nav {
 #samplephoto {
   text-align: center;
   margin-bottom: 10%;
+}
+
+.caption {
+  overflow: hidden;
+}
+
+#photoupload h3 {
+  text-align: center;
 }
 
 .upload {
@@ -191,10 +197,19 @@ nav {
   overflow: hidden;
 }
 
+.col-xs-10 {
+  margin: 0;
+}
+
+button {
+  font-size: 100%;
+  border-radius: 15px;
+  margin-bottom: 5%;
+}
+
 label text {;
   border: 1px solid #EF5F2B;
 }
-
 
 #footer {
   width: 100%;
@@ -202,8 +217,12 @@ label text {;
   clear: both;
   overflow: hidden;
   color: white;
-}
-.footertext {
-  height: 10%;
+  font-size: 150%;
   text-align: center;
+  padding-bottom: 5%;
 }
+
+.footertext {
+  font-size: 100%;
+}
+
