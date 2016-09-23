@@ -60,8 +60,21 @@ nav {
   font-size: 2%;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#video h1 {
+  width: 50%;
+  background: rgba(0, 0, 0, 0.8);
+  font-family: impact;
+  padding: 5%;
+  margin: 0 auto;
 }
 
 .btn .btn-warning {
@@ -110,9 +123,18 @@ nav {
   text-align: center;
 }
 
+.caption {
+  text-align: center;
+}
+
 .caption h3 {
   color: #EF5F2B;
 }
+
+.caption label {
+  width: 75%;
+}
+
 .imagethumbnail {
   margin-bottom: 5%;
 }
@@ -201,10 +223,19 @@ nav {
   margin: 0;
 }
 
-button {
-  font-size: 100%;
-  border-radius: 15px;
+#tehbutton {
+  width: 25%;
+  margin: 0 auto;
   margin-bottom: 5%;
+}
+
+#submit {
+  width: 100%;
+  font-size: 120%;
+  border-radius: 15px;
+  margin-top: 10%;
+  margin-bottom: 1%;
+  font-family: impact;
 }
 
 label text {;
