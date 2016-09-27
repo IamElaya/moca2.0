@@ -1,4 +1,4 @@
-$(function() {
+$(function formValidation() {
   $('#inputName').on('focusout', function(){
     checkName($('#inputName').val())
     // checkPhoneNumber($('#inputPhoneNumber').val())
@@ -38,51 +38,58 @@ $(function() {
     if (name.match(/^[a-z ,.'-]+$/i))
       $("#nameForm p").text("");
     else
-      $("#nameForm p").text("Please Put a Name").css({color:"Red"});
+      $("#nameForm p").text("Name Not Valid").css({color:"Red"});
       // var needName = $('#inputName').attr("placeholder", "Please put a name");
   }
 
   function checkCarMake(carMake) {
-    if (carMake.match(/^[a-z ,.'-]+$/i))
+    if (carMake)
       $("#carMakeForm p").text("");
     else
-      $("#carMakeForm p").text("Please Put a Car Make").css({color:"Red"});
+      $("#carMakeForm p").text("Car Make Not Valid").css({color:"Red"});
   }
 
   function checkCarModel(carModel) {
-    if (carModel.match(/^[a-z ,.'-]+$/i))
+    if (carModel)
       $("#carModelForm p").text("");
     else
-      $("#carModelForm p").text("Please Put a Car Model").css({color:"Red"});
+      $("#carModelForm p").text("Car Model Not Valid").css({color:"Red"});
   }
 
   function checkCarYear(carYear) {
     if (carYear.match(/^\d{4}$/))
       $("#carYearForm p").text("");
     else
-      $("#carYearForm p").text("Please Put a Car Year").css({color:"Red"});
+      $("#carYearForm p").text("Car Year Not Valid").css({color:"Red"});
   }
 
   function checkAddress(address) {
     if (address)
       $("#addressForm p").text("");
     else
-      $("#addressForm p").text("Please Put an address").css({color:"Red"});
+      $("#addressForm p").text("Address Not Valid").css({color:"Red"});
   }
 
   function checkEmail(email) {
     if (email)
       $("#emailForm p").text("");
     else
-      $("#emailForm p").text("Please Put an email").css({color:"Red"});
+      $("#emailForm p").text("Email Not Valid").css({color:"Red"});
   }
 
   function checkPhoneNumber(phoneNumber) {
     if (phoneNumber.match(/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/))
       $("#phoneNumberForm p").text("");
     else
-      $("#phoneNumberForm p").text("Please Put a phone number").css({color:"Red"});
+      $("#phoneNumberForm p").text("Phone Number Not Valid").css({color:"Red"});
   }
 });
 
-
+$(document).click(function (event) {
+    var clickover = $(event.target);
+    var $navbar = $(".navbar-collapse");               
+    var _opened = $navbar.hasClass("in");
+    if (_opened === true && !clickover.hasClass("navbar-toggle")) {      
+        $navbar.collapse('hide');
+    }
+})
