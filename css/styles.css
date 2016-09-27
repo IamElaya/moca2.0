@@ -33,17 +33,17 @@ p {
 
 nav {
   margin: 0 auto;
-  height: 12%;
+  height: 12%; 
+  background-color: rgba(255, 255, 255, 0.9) !important;
 }
 
-.navbar-default {
+#bs-example-navbar-collapse-1 {
   background-color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .wrapper {
   min-height: 100%;
   height: auto;
-  margin: 0 auto -10%;
 }
 
 .navoptions {
@@ -136,6 +136,7 @@ nav {
 }
 
 #desktoptext {
+  margin-top: 5%;
   width: 100%;
   padding: 0;
 }
@@ -190,6 +191,10 @@ nav {
   margin-left: 1%;
 }
 
+#title2 {
+  margin-left: 1%;
+}
+
 #steps {
   height: 150%;
   width: 100%;
@@ -206,7 +211,8 @@ nav {
   font-family: impact;
   border-left: solid 3px #EF5F2B;
   padding-left: 3%;
-  font-size: 1.5vw;
+  font-size: 2vw;
+  margin-left: 4%;
 }
 
 #steps2 {
@@ -228,8 +234,8 @@ nav {
 }
 
 #stepimage img {
-  padding-right: 3%;
-  height: 8vw;
+  margin-right: 10%;
+  height: 9vw;
 }
 
 #phototitle h1 {
@@ -340,3 +346,6 @@ label text {;
   #steps h2 { font-size: 5vw; }   /* hide it elsewhere */
 }
 
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  .imagethumbnail { margin: 0; }   /* hide it elsewhere */
+}
