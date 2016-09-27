@@ -32,9 +32,12 @@ p {
 
 
 nav {
-/*  background:rgba(255,255,255,0.5);*/
   margin: 0 auto;
   height: 12%;
+}
+
+.navbar-default {
+  background-color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .wrapper {
@@ -43,22 +46,17 @@ nav {
   margin: 0 auto -10%;
 }
 
-@media screen and (min-width: 0px) and (max-width: 400px) {
-  #desktoptext { display: none; }  /* show it on small screens */
-}
-
 .navoptions {
   padding-top: 3%;
 }
 
 #video {
-  margin-top: 5%;
   height: 100%;
   width: 100%;
-  padding-top: 10%;
+  padding-top: 15%;
   padding-bottom: 15%;
   text-align: center;
-  background-image: url(assets/img1.png);
+  background-image: url(assets/img1copy.png);
   background-size: cover;
   color: rgba(255, 255, 255, 0.8);
   text-align: center;
@@ -72,9 +70,8 @@ nav {
   background-size: cover;
 }
 
-#video h1 {
-  width: 50%;
-  background: rgba(0, 0, 0, 0.5);
+#video p {
+  width: 80%;
   font-family: impact;
   font-size: 300%;
   padding: 1%;
@@ -84,6 +81,7 @@ nav {
 #mobileonlytext {
   font-family: impact;
   text-align: center;
+  color: rgb(239, 95, 43);
 }
 
 #mobileonlytext a {
@@ -91,17 +89,14 @@ nav {
 }
 
 #mobileonlytext h1 {
-  font-size: 150%;
+  font-size: 130%;
+  color: #333;
 }
 
 .btn .btn-warning {
   padding: 0;
   border: none;
   background: none;
-}
-
-#bs-example-navbar-collapse-1 {
-  background-color: #f8f8f8;
 }
 
 #locations p {
@@ -134,6 +129,20 @@ nav {
 .thumbnail ul li {
   font-size: 30px;
   font-size: 2%;
+}
+
+.imagethumbnail {
+  margin: 4%;
+}
+
+#desktoptext {
+  width: 100%;
+  padding: 0;
+}
+
+#infobox {
+  width: 75%;
+  margin: 0 auto;
 }
 
 .thumbnail h1 {
@@ -177,6 +186,10 @@ nav {
   text-align: center;
 }
 
+#title {
+  margin-left: 1%;
+}
+
 #steps {
   height: 150%;
   width: 100%;
@@ -186,6 +199,14 @@ nav {
 
 #steps h3 {
   font-family: impact;
+  font-size: 150%;
+}
+
+#steps h2 {
+  font-family: impact;
+  border-left: solid 3px #EF5F2B;
+  padding-left: 3%;
+  font-size: 1.5vw;
 }
 
 #steps2 {
@@ -204,6 +225,11 @@ nav {
   display: inline-block;
   text-align: center;
   margin: 0;
+}
+
+#stepimage img {
+  padding-right: 3%;
+  height: 8vw;
 }
 
 #phototitle h1 {
@@ -255,10 +281,6 @@ nav {
   font-family: impact;
 }
 
-#stepimage {
-  padding-right: 10%;
-}
-
 label text {;
   border: 1px solid #EF5F2B;
 }
@@ -278,31 +300,43 @@ label text {;
   font-size: 100%;
 }
 
-@media screen and (min-width: 401px) and (max-width: 2000px) {
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  #desktoptext { display: none; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 451px) and (max-width: 2000px) {
   #desktoptext { display: block; }   /* hide it elsewhere */
 }
 
-@media screen and (min-width: 0px) and (max-width: 400px) {
+@media screen and (min-width: 0px) and (max-width: 450px) {
   #mobiletext { display: block; }  /* show it on small screens */
 }
 
-@media screen and (min-width: 401px) and (max-width: 2000px) {
+@media screen and (min-width: 451px) and (max-width: 2000px) {
   #mobiletext { display: none; }   /* hide it elsewhere */
 }
 
-@media screen and (min-width: 0px) and (max-width: 400px) {
+@media screen and (min-width: 0px) and (max-width: 450px) {
   #mobileonlytext { display: block; }  /* show it on small screens */
 }
 
-@media screen and (min-width: 401px) and (max-width: 2000px) {
+@media screen and (min-width: 451px) and (max-width: 2000px) {
   #mobileonlytext { display: none; }   /* hide it elsewhere */
 }
 
-@media screen and (min-width: 0px) and (max-width: 400px) {
+@media screen and (min-width: 0px) and (max-width: 450px) {
   #samplephoto img { height: 75vw; }   /* hide it elsewhere */
 }
 
-@media screen and (min-width: 0px) and (max-width: 400px) {
+@media screen and (min-width: 0px) and (max-width: 450px) {
   #video h1 { font-size: 150%; margin-top: 10%; width: 100% }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  #stepimage img { height: 25vw; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  #steps h2 { font-size: 5vw; }   /* hide it elsewhere */
 }
 
