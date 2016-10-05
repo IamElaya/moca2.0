@@ -226,7 +226,7 @@ nav {
 }
 
 #title2 {
-  padding-top: 10%;
+  padding-top: 5%;
   margin-left: 1%;
 }
 
@@ -259,6 +259,22 @@ nav {
   margin-left: 4%;
 }
 
+#step3text h2 {
+  font-family: impact;
+  border-left: solid 3px #EF5F2B;
+  padding-left: 3%;
+  font-size: 2vw;
+  margin-left: 4%;
+}
+
+#step4text h2 {
+  font-family: impact;
+  border-left: solid 3px #EF5F2B;
+  padding-left: 3%;
+  font-size: 2vw;
+  margin-left: 4%;
+}
+
 #steps2 {
   height: 150%;
   width: 100%;
@@ -274,10 +290,24 @@ nav {
   margin: 0 auto
 }
 
+#steps3 h2 {
+  border-left: 0px;
+  text-align: center;
+  background-color: white;
+  padding: 10%;
+}
+
 #steps4 {
   width: 75%;
   margin: 0 auto;
   padding-bottom:5%;
+}
+
+#steps4 h2 {
+  border-left: 0px;
+  text-align: center;
+  background-color: white;
+  padding: 10%;
 }
 
 #steps3 h1 {
@@ -364,7 +394,7 @@ label text {;
   color: white;
   font-size: 150%;
   text-align: center;
-  padding-bottom: 5%;
+  font-family: impact;
 }
 
 .footertext {
@@ -408,7 +438,7 @@ label text {;
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
-  #video { padding-top: 15%; padding-bottom: 15% }  /* show it on small screens */
+  #video { padding-top: 20%; padding-bottom: 15% }  /* show it on small screens */
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
@@ -421,6 +451,14 @@ label text {;
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
   #steps3 h1 { font-size: 5vw; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  #steps3 h2 { font-size: 4vw; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  #steps4 h2 { font-size: 4vw; }   /* hide it elsewhere */
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
