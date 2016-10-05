@@ -34,14 +34,15 @@ p {
 nav {
   margin: 0;
   width: 100%;
-  height: 10%; 
+  height: 12%; 
   background-color: rgba(255, 255, 255, 0.9) !important;
-  overflow: hidden;
+
 }
 
 .navbar {
   margin-bottom: 0;
   background-color: rgba(255, 255, 255, 0.9) !important;
+
 }
 
 #bs-example-navbar-collapse-1 {
@@ -51,6 +52,10 @@ nav {
 #navheader {
   width: 100%;
   padding: 0;
+  margin-bottom: 0;
+}
+
+.navbar-header {
   margin-bottom: 0;
 }
 
@@ -68,15 +73,15 @@ nav {
 }
 
 #logo {
-  height: 6vw;
+  height: 5vw;
   margin-left: 5%;
 }
 
 #video {
   height: 100%;
   width: 100%;
-  padding-top: 15%;
-  padding-bottom: 15%;
+  padding-top: 10%;
+  padding-bottom: 10%;
   text-align: center;
   background-image: url(assets/img1copy.png);
   background-size: cover;
@@ -223,6 +228,15 @@ nav {
   margin-left: 1%;
 }
 
+#title3 {
+  margin-left: 1%;
+}
+
+#title4 {
+  margin-left: 1%;
+  margin-top: 5%;
+}
+
 #steps {
   height: 150%;
   width: 100%;
@@ -251,6 +265,27 @@ nav {
 
 #steps2 img {
   padding-top: 10%;
+}
+
+#steps3 {
+  width: 75%;
+  margin: 0 auto
+}
+
+#steps4 {
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom:5%;
+}
+
+#steps3 h1 {
+  text-align: center;
+  font-family: impact;
+}
+
+#steps4 h1 {
+  text-align: center;
+  font-family: impact;
 }
 
 .step {
@@ -335,6 +370,10 @@ label text {;
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
+  nav { height: 15vw; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
   #desktoptext { display: none; }  /* show it on small screens */
 }
 
@@ -367,11 +406,23 @@ label text {;
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
+  #video { padding-top: 15%; padding-bottom: 15% }  /* show it on small screens */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
   #stepimage img { height: 25vw; }   /* hide it elsewhere */
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
   #steps h2 { font-size: 5vw; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  #steps3 h1 { font-size: 5vw; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  #steps4 h1 { font-size: 5vw; }   /* hide it elsewhere */
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
