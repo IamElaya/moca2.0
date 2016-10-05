@@ -401,6 +401,10 @@ label text {;
   font-size: 100%;
 }
 
+#footer h3 {
+  font-size: 75%;
+}
+
 @media screen and (min-width: 0px) and (max-width: 450px) {
   nav { height: 15vw; }  /* show it on small screens */
 }
@@ -454,11 +458,15 @@ label text {;
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
-  #steps3 h2 { font-size: 4vw; }   /* hide it elsewhere */
+  #steps3 h2 { font-size: 5vw; }   /* hide it elsewhere */
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
-  #steps4 h2 { font-size: 4vw; }   /* hide it elsewhere */
+  #steps3 { font-size: 5vw; width: 100%; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  #steps4 { font-size: 5vw; width: 100%; }   /* hide it elsewhere */
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
