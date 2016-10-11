@@ -102,20 +102,20 @@ nav {
 
 #video p {
   width: 80%;
-  font-family: impact, "Gidole-reg";
+  font-family: impact, "Gidole-reg", HelveticaNeue;
   font-size: 300%;
   padding: 1%;
   margin: 0 auto;
 }
 
 #mobileonlytext {
-  font-family: impact, "Gidole-reg";
+  font-family: impact, "Gidole-reg", HelveticaNeue;
   text-align: center;
   color: rgb(239, 95, 43);
 }
 
 #mobileonlytext a {
-  font-family: impact, "Gidole-reg";
+  font-family: impact, "Gidole-reg", HelveticaNeue;
 }
 
 #mobileonlytext h1 {
@@ -145,7 +145,7 @@ nav {
 
 
 #forminfo {
-  font-family: "Gidole-reg";
+  font-family: "Gidole-reg", HelveticaNeue;
   margin-bottom: 3%;
 }
 
@@ -209,7 +209,7 @@ nav {
 #infobox h3 {
   text-align: center;
   font-weight: bold;
-  font-family: impact, "Gidole-reg";
+  font-family: impact, "Gidole-reg", HelveticaNeue;
 }
 
 #infotitle h1 {
@@ -218,7 +218,7 @@ nav {
 
 .infosteps {
   color: rgb(239, 95, 43);
-  font-family: impact, "Gidole-reg";
+  font-family: impact, "Gidole-reg", HelveticaNeue;
   text-align: center;
 }
 
@@ -248,12 +248,12 @@ nav {
 }
 
 #steps h3 {
-  font-family: impact, "Gidole-reg";
+  font-family: impact, "Gidole-reg", HelveticaNeue;
   font-size: 150%;
 }
 
 #steps h2 {
-  font-family: impact, "Gidole-reg";
+  font-family: impact, "Gidole-reg", HelveticaNeue;
   border-left: solid 3px #EF5F2B;
   padding-left: 3%;
   font-size: 2vw;
@@ -261,7 +261,7 @@ nav {
 }
 
 #step3text h2 {
-  font-family: impact, "Gidole-reg";
+  font-family: impact, "Gidole-reg", HelveticaNeue;
   border-left: solid 3px #EF5F2B;
   padding-left: 3%;
   font-size: 2vw;
@@ -269,7 +269,7 @@ nav {
 }
 
 #step4text h2 {
-  font-family: impact, "Gidole-reg";
+  font-family: impact, "Gidole-reg", HelveticaNeue;
   border-left: solid 3px #EF5F2B;
   padding-left: 3%;
   font-size: 2vw;
@@ -313,17 +313,17 @@ nav {
 
 #steps3 h1 {
   text-align: center;
-  font-family: impact, "Gidole-reg";
+  font-family: impact, "Gidole-reg", HelveticaNeue;
 }
 
 #steps4 h1 {
   text-align: center;
-  font-family: impact, "Gidole-reg";
+  font-family: impact, "Gidole-reg", HelveticaNeue;
 }
 
 .step {
   color: rgb(239, 95, 43);
-  font-family: impact, "Gidole-reg";
+  font-family: impact, "Gidole-reg", HelveticaNeue;
   display: inline-block;
   text-align: center;
   margin: 0;
@@ -335,7 +335,7 @@ nav {
 }
 
 #phototitle h1 {
-  font-family: impact, "Gidole-reg";
+  font-family: impact, "Gidole-reg", HelveticaNeue;
   text-align: center;
   color:rgb(128, 128, 128);
 }
@@ -359,7 +359,7 @@ nav {
 
 #form {
   color: #EF5F2B;
-  font-family: impact, "Gidole-reg";
+  font-family: impact, "Gidole-reg", HelveticaNeue;
   font-size: 150%;
   overflow: hidden;
 }
@@ -380,7 +380,7 @@ nav {
   border-radius: 15px;
   margin-top: 10%;
   margin-bottom: 1%;
-  font-family: impact, "Gidole-reg";
+  font-family: impact, "Gidole-reg", HelveticaNeue;
 }
 
 label text {;
@@ -395,7 +395,7 @@ label text {;
   color: white;
   font-size: 150%;
   text-align: center;
-  font-family: impact, "Gidole-reg";
+  font-family: impact, "Gidole-reg", HelveticaNeue;
 }
 
 .footertext {
@@ -502,7 +502,7 @@ label text {;
   left: 22%;
   color: white;
   text-decoration: underline;
-  font-family: "Gidole-reg";
+  font-family: "Gidole-reg", HelveticaNeue;
 }
 
 #ojtitle {
@@ -510,7 +510,7 @@ label text {;
   height: 20%;
   text-align: center;
   background-color: orange;
-  font-family: "Gidole-reg";
+  font-family: "Gidole-reg", HelveticaNeue;
   color: white;
   padding: 10%;
 }
@@ -518,7 +518,7 @@ label text {;
 #descriptivetext {
   padding: 5%;
   text-align: center;
-  font-family: "Gidole-reg";
+  font-family: "Gidole-reg", HelveticaNeue;
 }
 
 #descriptivetext h1 {
@@ -536,7 +536,7 @@ label text {;
 #descriptivetext2 h2 {
   padding: 10%;
   text-align: center;
-  font-family: "Gidole-reg";
+  font-family: "Gidole-reg", HelveticaNeue;
 }
 
 #ojtitle2 {
@@ -544,13 +544,13 @@ label text {;
   height: 20%;
   text-align: center;
   background-color: orange;
-  font-family: "Gidole-reg";
+  font-family: "Gidole-reg", HelveticaNeue;
   color: white;
   padding: 10%;
 }
 
 #descriptivetext3 {
-  font-family: "Gidole-reg";
+  font-family: "Gidole-reg", HelveticaNeue;
   padding: 5%;
 }
 
@@ -561,7 +561,7 @@ label text {;
 #quotes {
   height: 100%;
   margin-bottom: 10%;
-  font-family: "Gidole-reg";
+  font-family: "Gidole-reg", HelveticaNeue;
   position: relative;
 }
 
