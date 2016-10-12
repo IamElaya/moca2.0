@@ -374,6 +374,11 @@ nav {
   margin-bottom: 5%;
 }
 
+#uploadinfo p {
+  color: #EF5F2B;
+  font-family: impact;
+}
+
 #submit {
   width: 100%;
   font-size: 120%;
