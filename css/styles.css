@@ -411,6 +411,100 @@ label text {;
   font-size: 75%;
 }
 
+.pace.pace-inactive {
+  display: none;
+}
+
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+
+  -webkit-perspective: 12rem;
+  -moz-perspective: 12rem;
+  -ms-perspective: 12rem;
+  -o-perspective: 12rem;
+  perspective: 100rem;
+
+  z-index: 2000;
+  position: fixed;
+  height: 50rem;
+  width: 50rem;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.pace.pace-inactive .pace-progress {
+  display: none;
+}
+
+.pace .pace-progress {
+  position: fixed;
+  z-index: 2000;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 50rem;
+  width: 50rem !important;
+  line-height: 50rem;
+  font-size: 16rem;
+  border-radius: 50%;
+  background: rgba(34, 153, 221, 0.8);
+  color: #fff;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  text-align: center;
+
+  -webkit-animation: pace-theme-center-circle-spin linear infinite 2s;
+  -moz-animation: pace-theme-center-circle-spin linear infinite 2s;
+  -ms-animation: pace-theme-center-circle-spin linear infinite 2s;
+  -o-animation: pace-theme-center-circle-spin linear infinite 2s;
+  animation: pace-theme-center-circle-spin linear infinite 2s;
+
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.pace .pace-progress:after {
+  content: attr(data-progress-text);
+  display: block;
+}
+
+@-webkit-keyframes pace-theme-center-circle-spin {
+  from { -webkit-transform: rotateY(0deg) }
+  to { -webkit-transform: rotateY(360deg) }
+}
+
+@-moz-keyframes pace-theme-center-circle-spin {
+  from { -moz-transform: rotateY(0deg) }
+  to { -moz-transform: rotateY(360deg) }
+}
+
+@-ms-keyframes pace-theme-center-circle-spin {
+  from { -ms-transform: rotateY(0deg) }
+  to { -ms-transform: rotateY(360deg) }
+}
+
+@-o-keyframes pace-theme-center-circle-spin {
+  from { -o-transform: rotateY(0deg) }
+  to { -o-transform: rotateY(360deg) }
+}
+
+@keyframes pace-theme-center-circle-spin {
+  from { transform: rotateY(0deg) }
+  to { transform: rotateY(360deg) }
+}
+
 @media screen and (min-width: 0px) and (max-width: 450px) {
   nav { height: 15vw; }  /* show it on small screens */
 }
@@ -491,18 +585,21 @@ label text {;
   #video p { padding-top:5%; width:100%; font-size: 150%; }   /* hide it elsewhere */
 }
 
-.slider {
+#carousel-example-generic {
   height: 40%;
   margin-bottom: -2%;
+  width: 100%;
+  z-index: 1000;
 }
 
-.slider img {
+#carousel-example-generic img {
   width: 100%;
   position: relative;
+  height: 50vw;
 }
 
-.slider h1 {
-  bottom: 50%;
+#carousel-example-generic h1 {
+  bottom: 40%;
   position: absolute;
   left: 22%;
   color: white;
@@ -514,7 +611,7 @@ label text {;
   margin-top: 0;
   height: 20%;
   text-align: center;
-  background-color: orange;
+  background-color: #EF5F2B;
   font-family: "Gidole-reg", HelveticaNeue;
   color: white;
   padding: 10%;
@@ -548,7 +645,7 @@ label text {;
   margin-top: 0;
   height: 20%;
   text-align: center;
-  background-color: orange;
+  background-color: #EF5F2B;
   font-family: "Gidole-reg", HelveticaNeue;
   color: white;
   padding: 10%;
@@ -560,7 +657,7 @@ label text {;
 }
 
 #descriptivetext3 h1 {
-  color: orange;
+  color: #EF5F2B;
 }
 
 #quotes {
@@ -584,6 +681,26 @@ label text {;
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
-  .slider h1 { bottom: 80%; font-size: 100%; left:20%;}   /* hide it elsewhere */
+  .slider img { height: 75vw; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  .slider h1 { bottom: 72%; font-size: 130%; left:9%;}   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  #quotes h2 { bottom: -15%; font-size: 100%; left:39%;}   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  #descriptivetext h2 { font-size: 110%;}   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  #descriptivetext2 h2 { font-size: 110%;}   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  #descriptivetext3 h2 { font-size: 150%;}   /* hide it elsewhere */
 }
 
