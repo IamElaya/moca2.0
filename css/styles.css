@@ -55,6 +55,10 @@ nav {
   margin-bottom: 0;
 }
 
+.navoptions img {
+  height: 2vw;
+}
+
 .navbar-header {
   margin-bottom: 0;
 }
@@ -398,17 +402,39 @@ label text {;
   clear: both;
   overflow: hidden;
   color: white;
-  font-size: 150%;
-  text-align: center;
-  font-family: impact, "Gidole-reg", HelveticaNeue;
+  font-size: 100%;
+  font-family: HelveticaNeue, impact, "Gidole-reg";
+  padding-top: 2%;
 }
 
 .footertext {
   font-size: 100%;
 }
 
+#footer h1 {
+  font-size: 150%;
+  font-style: underline;
+  font-family: impact;
+  text-align: center;
+}
+
+#footer h2 {
+  color: gray;
+  text-align: center;
+}
+
 #footer h3 {
-  font-size: 75%;
+  font-size: 100%;
+  text-align: center;
+}
+
+#logo2 {
+  height: 5vw;
+  margin-left: 40%;
+}
+
+#socialmedia {
+  text-align: center;
 }
 
 .pace.pace-inactive {
@@ -582,6 +608,10 @@ label text {;
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
+  #logo2 { height: 15vw; margin-left: 19%;}   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
   #video p { padding-top:5%; width:100%; font-size: 150%; }   /* hide it elsewhere */
 }
 
@@ -595,13 +625,13 @@ label text {;
 #carousel-example-generic img {
   width: 100%;
   position: relative;
-  height: 50vw;
+  height: 45vw;
 }
 
 #carousel-example-generic h1 {
   bottom: 40%;
   position: absolute;
-  left: 22%;
+  left: 20%;
   color: white;
   text-decoration: underline;
   font-family: "Gidole-reg", HelveticaNeue;
@@ -681,11 +711,11 @@ label text {;
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
-  .slider img { height: 75vw; }   /* hide it elsewhere */
+  #carousel-example-generic img { height: 75vw; }   /* hide it elsewhere */
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
-  .slider h1 { bottom: 72%; font-size: 130%; left:9%;}   /* hide it elsewhere */
+  #carousel-example-generic h1 { bottom: 40%; font-size: 130%; left:9%;}   /* hide it elsewhere */
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
