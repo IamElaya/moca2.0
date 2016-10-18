@@ -619,7 +619,7 @@ label text {;
 }
 
 #carousel-example-generic {
-  height: 40%;
+  height: 30%;
   margin-bottom: -2%;
   width: 100%;
   z-index: 1000;
@@ -628,13 +628,13 @@ label text {;
 #carousel-example-generic img {
   width: 100%;
   position: relative;
-  height: 45vw;
+  height: 40vw;
 }
 
 #carousel-example-generic h1 {
   bottom: 40%;
   position: absolute;
-  left: 25%;
+  left: 22%;
   color: white;
   text-decoration: underline;
   font-family: "Gidole-reg", HelveticaNeue;
@@ -645,7 +645,7 @@ label text {;
   height: 20%;
   text-align: center;
   background-color: #EF5F2B;
-  font-family: "Gidole-reg", HelveticaNeue;
+  font-family: Impact, "Gidole-reg", HelveticaNeue;
   color: white;
   padding: 10%;
 }
@@ -658,6 +658,10 @@ label text {;
 
 #descriptivetext h1 {
   margin-top: 10%;
+}
+
+#servicearea {
+  font-family: impact;
 }
 
 #map {
@@ -679,7 +683,7 @@ label text {;
   height: 20%;
   text-align: center;
   background-color: #EF5F2B;
-  font-family: "Gidole-reg", HelveticaNeue;
+  font-family: Impact, "Gidole-reg", HelveticaNeue;
   color: white;
   padding: 10%;
 }
@@ -696,7 +700,7 @@ label text {;
 #quotes {
   height: 100%;
   margin-bottom: 10%;
-  font-family: "Gidole-reg", HelveticaNeue;
+  font-family: Impact, "Gidole-reg", HelveticaNeue;
   position: relative;
 }
 
@@ -726,14 +730,16 @@ label text {;
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
-  #descriptivetext h2 { font-size: 110%;}   /* hide it elsewhere */
+  #descriptivetext h2 { font-size: 130%;}   /* hide it elsewhere */
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
-  #descriptivetext2 h2 { font-size: 110%;}   /* hide it elsewhere */
+  #descriptivetext2 h2 { font-size: 130%;}   /* hide it elsewhere */
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
-  #descriptivetext3 h2 { font-size: 150%;}   /* hide it elsewhere */
+  #descriptivetext3 h2 { font-size: 130%;}   /* hide it elsewhere */
 }
+
+
 
