@@ -379,8 +379,11 @@ nav {
 }
 
 #uploadinfo p {
-  color: #EF5F2B;
+/*  color: #EF5F2B;*/
+  color: red;
   font-family: impact;
+  font-size: 200%;
+  padding-bottom: 10%;
 }
 
 #submit {
@@ -631,7 +634,7 @@ label text {;
 #carousel-example-generic h1 {
   bottom: 40%;
   position: absolute;
-  left: 20%;
+  left: 25%;
   color: white;
   text-decoration: underline;
   font-family: "Gidole-reg", HelveticaNeue;
@@ -706,7 +709,7 @@ label text {;
 #quotes h2 {
   text-align: center;
   position: absolute;
-  left: 42%;
+  left: 43%;
   bottom: 5%;
 }
 
