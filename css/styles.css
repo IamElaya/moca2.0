@@ -607,6 +607,10 @@ label text {;
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
+  #uploadinfo { font-size: 2.5vw; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
   #logo { height: 15vw; }   /* hide it elsewhere */
 }
 
@@ -618,26 +622,13 @@ label text {;
   #video p { padding-top:5%; width:100%; font-size: 150%; }   /* hide it elsewhere */
 }
 
-#carousel-example-generic {
-  height: 30%;
-  margin-bottom: -2%;
-  width: 100%;
-  z-index: 1000;
-}
-
-#carousel-example-generic img {
-  width: 100%;
-  position: relative;
-  height: 40vw;
-}
-
-#carousel-example-generic h1 {
-  bottom: 40%;
+#videotext {
   position: absolute;
-  left: 22%;
+  left: 17%;
+  bottom: 50%;
   color: white;
-  text-decoration: underline;
-  font-family: "Gidole-reg", HelveticaNeue;
+  font-family: Impact, "Gidole-reg", HelveticaNeue; 
+  font-size: 300%;
 }
 
 #ojtitle {
@@ -718,11 +709,7 @@ label text {;
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
-  #carousel-example-generic img { height: 75vw; }   /* hide it elsewhere */
-}
-
-@media screen and (min-width: 0px) and (max-width: 450px) {
-  #carousel-example-generic h1 { bottom: 40%; font-size: 130%; left:9%;}   /* hide it elsewhere */
+  #videotext { font-size: 120%; bottom: 80%; left: 10%; }   /* hide it elsewhere */
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
