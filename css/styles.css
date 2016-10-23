@@ -539,6 +539,11 @@ label text {;
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
+  .navoptions img { height: 7vw; }  /* show it on small screens */
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
   #desktoptext { display: none; }  /* show it on small screens */
 }
 
@@ -624,7 +629,7 @@ label text {;
 
 #videotext {
   position: absolute;
-  left: 17%;
+  left: 20%;
   bottom: 50%;
   color: white;
   font-family: Impact, "Gidole-reg", HelveticaNeue; 
