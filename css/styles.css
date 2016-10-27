@@ -145,6 +145,10 @@ nav {
   padding-right: 2%;
 }
 
+#bs-example-navbar-collapse-1 {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
 .wrapper {
   min-height: 90%;
   height: auto;
@@ -623,6 +627,9 @@ span:hover {
   .navoptions img { height: 7vw; }  /* show it on small screens */
 }
 
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  #navheader { background-color: rgba(255, 255, 255, 0.9); }  /* show it on small screens */
+}
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
   #desktoptext { display: none; }  /* show it on small screens */
@@ -822,7 +829,7 @@ span:hover {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-bottom: 50px;
+  margin-bottom: 0;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
@@ -900,5 +907,34 @@ hr.small {
   border-color: white;
 }
 
+hr.orangeline {
+  max-width: 100vw;
+  margin: 0 auto;
+  border-width: 10px;
+  border-color: #EF5F2B;
+}
 
+.row.blog {
+  border-bottom: 5px solid #EF5F2B;
+  color: #EF5F2B;
+  max-width: 100%;
+  margin: 0 auto; 
+}
+
+#currentblog img {
+  height: 40vw;
+  width: 100% ;
+}
+
+#blogsocialmedia {
+  border-bottom: 5px solid #EF5F2B;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+
+#share {
+  width: 25vw;
+  margin: 0 auto;
+}
 
