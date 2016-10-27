@@ -5,6 +5,7 @@
 
 html, body {
   margin: 0;
+  padding: 0;
   height: 100%;
 }
 
@@ -30,13 +31,16 @@ p {
   text-align: center;
 }
 
+#wrapper {
+  max-width: 100%;
+}
+
 
 nav {
   margin: 0;
-  width: 100%;
+  max-width: 100%;
   min-height: 10%;
   margin-bottom: 0 !important; 
-
 }
 
 .navbar {
@@ -145,15 +149,10 @@ nav {
   padding-right: 2%;
 }
 
-#bs-example-navbar-collapse-1 {
+/*#bs-example-navbar-collapse-1 {
   background-color: rgba(255, 255, 255, 0.9);
-}
+}*/
 
-.wrapper {
-  min-height: 90%;
-  height: auto;
-  margin-top: 0;
-}
 
 #logo {
   height: 5vw;
@@ -632,6 +631,10 @@ span:hover {
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
+  #bs-example-navbar-collapse-1 { background-color: transparent; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
   #desktoptext { display: none; }  /* show it on small screens */
 }
 
@@ -717,7 +720,8 @@ span:hover {
 
 #videotext {
   position: absolute;
-  left: 20%;
+  left: 40%;
+  margin-left:-20%;
   bottom: 50%;
   color: white;
   font-family: Impact, "Gidole-reg", HelveticaNeue; 
@@ -802,11 +806,11 @@ span:hover {
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
-  #videotext { font-size: 120%; bottom: 80%; left: 10%; }   /* hide it elsewhere */
+  #videotext { font-size: 100%; bottom: 80%; }   /* hide it elsewhere */
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
-  #quotes h2 { bottom: -15%; font-size: 100%; left:39%;}   /* hide it elsewhere */
+  #quotes h2 { bottom: -15%; font-size: 90%; left:40%;}   /* hide it elsewhere */
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
