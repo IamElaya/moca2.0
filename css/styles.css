@@ -1016,6 +1016,10 @@ hr.orangeline {
   margin-bottom: 2%;
 }
 
+#newcomment {
+  padding-right: 50em;
+}
+
 #comments {
   margin-left: 10%;
   margin-bottom: 5%;
@@ -1026,7 +1030,12 @@ hr.orangeline {
 }
 
 #comments h2 {
+  font-size: 75%;
+}
+
+.col-xs-11.col-md-11 {
   border: black 1px solid;
+  margin-bottom: 5%;
 }
 
 #next {
@@ -1046,3 +1055,26 @@ hr.orangeline {
   color: black;
   font-size: 100%;
 }
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  #newcomment { padding-right: 0; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  #currentblogtitle { text-align: center; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  #contenttext p { text-align: center; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  .col-xs-10 { margin: 0; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  .col-xs-10 { margin: 0; }   /* hide it elsewhere */
+}
+
+
+
