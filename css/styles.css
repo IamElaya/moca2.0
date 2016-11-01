@@ -913,7 +913,7 @@ hr.small {
 hr.orangeline {
   max-width: 100vw;
   margin: 0 auto;
-  border-width: 5px;
+  border-width: 2px;
   border-color: #EF5F2B;
 }
 
@@ -926,7 +926,7 @@ hr.orangeline {
 }
 
 #previous {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   height: 70%;
 }
 
@@ -949,7 +949,7 @@ hr.orangeline {
   max-width: 100%;
   margin: 0 auto;
   margin-left: 5%; 
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 #currentblogtitle h1 {
@@ -975,15 +975,32 @@ hr.orangeline {
 #contenttext {
   margin-left: 10%;
   font-size: 120%;
+  width: 80%;
+}
+
+#contenttext p {
+  text-align: left;
 }
 
 #blogsocialmedia { 
   border-bottom: 5px solid #EF5F2B;
   max-width: 80%;
   margin: 0 auto;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
+  margin-top: 5%;
 }
 
+#blogsocialmedia h1 {
+  color: #EF5F2B;
+}
+
+#commentsubmit {
+  background-color: #EF5F2B;
+  color: white;
+  font-family: "Gidole-reg", impact;
+  border: 0px;
+  margin-bottom: 1%;
+}
 
 #share {
   width: 25vw;
@@ -996,7 +1013,20 @@ hr.orangeline {
 
 #blogcomment {
   margin-left: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
+}
+
+#comments {
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+#comments h1 h2 {
+  font-size: 100%;
+}
+
+#comments h2 {
+  border: black 1px solid;
 }
 
 #next {
