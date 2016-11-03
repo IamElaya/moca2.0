@@ -1035,7 +1035,7 @@ hr.orangeline {
 
 .col-xs-11.col-md-11 {
   border: black 1px solid;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 #next {
@@ -1057,11 +1057,11 @@ hr.orangeline {
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
-  #newcomment { padding-right: 0; }   /* hide it elsewhere */
+  #newcomment { padding-right: 55%; }   /* hide it elsewhere */
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
-  #currentblogtitle { text-align: center; }   /* hide it elsewhere */
+  #currentblogtitle { text-align: center; margin-left: 0; }   /* hide it elsewhere */
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
@@ -1076,5 +1076,37 @@ hr.orangeline {
   .col-xs-10 { margin: 0; }   /* hide it elsewhere */
 }
 
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  .col-xs-11{ margin-bottom: 5%;}   /* hide it elsewhere */
+}
+
+#categories {
+  text-align: center;
+  color: #EF5F2B;
+  font-family: "Gidole-reg";
+  padding: 2%;
+}
+
+#partnersbox {
+  height: 50vw;
+  width: 100%;
+  padding-top: 5%;
+  font-family: Impact;
+}
+
+.caption h1 {
+  color: #EF5F2B;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+#partners {
+  background-color: rgba(239, 95, 43, 0.1);
+  width: 100%;
+  color: #EF5F2B;
+}
 
 
