@@ -655,7 +655,7 @@ span:hover {
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
-  #samplephoto img { height: 75vw; width: 100vw; }   /* hide it elsewhere */
+  #samplephoto img { height: 50vw; width: 50vw; }   /* hide it elsewhere */
 }
 
 @media screen and (min-width: 451px) and (max-width: 2000px) {
