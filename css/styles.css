@@ -1239,7 +1239,7 @@ hr.blackline {
 }
 
 #reviews i {
-  color: lightblue;
+  color: blue;
   margin-left: 40%;
   margin-top: 20%;
 }
@@ -1254,4 +1254,49 @@ hr.blackline {
 
 .review h3 {
   color: gray;
+}
+
+#viewmore {
+  margin-top: 5%;
+  text-align: center;
+}
+
+#viewmore .fa-stack {
+  color: blue;
+}
+
+#examplereviews h1 {
+  color: #EF5F2B;
+  margin-left: 6%;
+  margin-bottom: 5%;
+}
+
+#examplereviews .col-md-5 {
+  margin-left: 5%;
+}
+
+#examplereviews img {
+  max-height: 20vw;
+}
+
+#examplereviews .caption {
+  text-align: left;
+}
+
+#infobottom {
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+
+#infobottom h1 {
+  color: #EF5F2B;
+  margin-left: 3%;
+}
+
+#infobottom .row {
+  margin-left: 1%;
+}
+
+#infobottom h2 {
+  font-size: 200%;
 }
