@@ -918,7 +918,7 @@ hr.small {
 hr.orangeline {
   max-width: 100vw;
   margin: 0 auto;
-  border-width: 2px;
+  border-width: 3px;
   border-color: #EF5F2B;
 }
 
@@ -1069,6 +1069,10 @@ hr.blackline {
   font-size: 100%;
 }
 
+.bodyshop {
+  padding-bottom: 0;
+}
+
 @media screen and (min-width: 0px) and (max-width: 450px) {
   #newcomment { padding-right: 55%; }   /* hide it elsewhere */
 }
@@ -1101,6 +1105,37 @@ hr.blackline {
   padding: 2%;
 }
 
+#shopsearch {
+  margin-bottom: 7%;
+}
+
+#bodyShop {
+  border-radius: 90px;
+  border-color: #EF5F2B;
+}
+
+#fullpartners {
+  max-width: 110%;
+}
+
+#locations {
+  min-width: 33.33%;
+  height: 100%;
+  background-color: white;
+  padding-left: 5%;
+}
+
+#locations h1 {
+  color: #EF5F2B;
+}
+
+
+#shops {
+  min-width: 66.66%;
+}
+
+
+
 #partnersbox {
   height: 50vw;
   width: 100%;
@@ -1116,10 +1151,16 @@ hr.blackline {
   width: 100%;
 }
 
+
+
 #partners {
   background-color: rgba(239, 95, 43, 0.1);
-  width: 100%;
+  max-width: 100%;
   color: #EF5F2B;
+}
+
+#partners .caption {
+ margin-bottom: 0;
 }
 
 .partners {
@@ -1137,7 +1178,7 @@ hr.blackline {
   text-align: center;
 }
 
-.partners .col-md-7 {
+.partners .col-md-6 {
   text-align: justify; 
   font-size: 33%; 
 }
@@ -1168,11 +1209,12 @@ hr.blackline {
   text-decoration: underline; 
 }
 
-.partners .col-md-7 h2 {
+.partners .col-md-6 h2 {
   margin-top: 0.1%;
   margin-bottom: 1%; 
   font-size: 25px;
 }
+
 
 .icons {
   color: #EF5F2B;
@@ -1294,7 +1336,7 @@ hr.blackline {
 }
 
 #infobottom .row {
-  margin-left: 1%;
+  text-align: center;
 }
 
 #infobottom h2 {
