@@ -1181,8 +1181,11 @@ hr.blackline {
 
 }
 
+.icons h1 {
+  font-size: 160%;
+}
+
 .icons .col-md-3 {
-  text-align: center;
   border: 2px solid #EF5F2B;
   border-radius: 25px;
   margin-left: 5%;
@@ -1208,6 +1211,14 @@ hr.blackline {
   max-width: 300px;
 }
 
+.headlineheadlines {
+  margin-bottom: 10%;
+}
+
+.specialty .col-md-4 {
+  border-left: 10px solid #EF5F2B;
+}
+
 #downtownmap img {
   max-width: 100%;
 }
@@ -1220,10 +1231,17 @@ hr.blackline {
 
 #reviewtitle {
   margin-left: 5%;
+  margin-bottom: 5%;
 }
 
 #reviews h1 {
   color: #EF5F2B;
+}
+
+#reviews i {
+  color: lightblue;
+  margin-left: 40%;
+  margin-top: 20%;
 }
 
 .review {
@@ -1232,4 +1250,8 @@ hr.blackline {
 
 .review .col-md-2 {
   font-size: 100%;
+}
+
+.review h3 {
+  color: gray;
 }
