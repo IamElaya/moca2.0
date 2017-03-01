@@ -908,6 +908,10 @@ span:hover {
   }
 }
 
+.blogintro {
+  padding-bottom: 0;
+}
+
 hr.small {
   max-width: 100px;
   margin: 15px auto;
