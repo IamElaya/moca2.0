@@ -1346,3 +1346,38 @@ hr.blackline {
 #infobottom h2 {
   font-size: 200%;
 }
+
+#locationsmobile .col-xs-2{
+  text-align: center;
+  padding: 0;
+  margin-left: 6.66%;
+}
+
+#locationsmobile h1 {
+  font-size: 70%;
+  text-align: center;
+  border: 1px solid #EF5F2B;
+  border-radius: 90px;
+  color:#EF5F2B;
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  #locations{ display: none; }  
+}
+
+@media screen and (min-width: 451px) and (max-width: 1920px) {
+  #locationsmobile{ display: none; }  
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  #youtubevideo{ display: none; }  
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  .mobileshop{ text-align: center; }  
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  .mobileshop h1{ margin-left: 26%; }  
+}
+
