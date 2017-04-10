@@ -137,6 +137,8 @@ $(function scroll() {
   });
 });
 
+
+
 jQuery(document).ready(function($) {
     var MQL = 1170;
 
